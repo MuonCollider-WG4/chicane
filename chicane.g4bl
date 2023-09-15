@@ -1,0 +1,328 @@
+physics default doStochastics=0
+zntuple cooling_monitor zloop=0.0:8576.327687827:100.0 format=for009 file=output_data coordinates=c
+param epsMax=0.01
+param maxStep=10.0
+reference particle=mu+ referenceMomentum=199.3941022999427  beamZ=0.0 beamX=0.0 beamT=0.0 noEfield=0 noEloss=0
+beam ascii particle=-13 nEvents=11 filename=beam.txt format=BLTrackFile beamZ=0.0
+coil coil_500_550.0_95.0 innerRadius=500.0 outerRadius=550.0 length=95.0
+solenoid chicane_straight_0 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_0 x=464.09508135632973 z=-1000.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_1 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_1 x=464.09508135632973 z=-900.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_2 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_2 x=464.09508135632973 z=-800.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_3 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_3 x=464.09508135632973 z=-700.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_4 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_4 x=464.09508135632973 z=-600.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_5 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_5 x=464.09508135632973 z=-500.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_6 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_6 x=464.09508135632973 z=-400.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_7 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_7 x=464.09508135632973 z=-300.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_8 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_8 x=464.09508135632973 z=-200.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_9 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_9 x=464.09508135632973 z=-100.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_10 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_10 x=464.09508135632973 z=0.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_11 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_11 x=464.09508135632973 z=100.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_12 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_12 x=464.09508135632973 z=200.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_13 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_13 x=464.09508135632973 z=300.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_14 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_14 x=464.09508135632973 z=400.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_15 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_15 x=464.09508135632973 z=500.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_16 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_16 x=464.09508135632973 z=600.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_17 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_17 x=464.09508135632973 z=700.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_18 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_18 x=464.09508135632973 z=800.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_19 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_19 x=464.09508135632973 z=900.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_20 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_20 x=464.09508135632973 z=1000.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_bend_0 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_0 x=464.09508135632973 z=1100.0 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_bend_1 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_1 x=463.34508916880554 z=1199.9970833494792 current=-69.41078692333662 rotation=Y-0.2864788975654116
+
+solenoid chicane_bend_2 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_2 x=462.0951230226831 z=1299.9891667927077 current=-69.41078692333662 rotation=Y-0.5729577951308231
+
+solenoid chicane_bend_3 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_3 x=460.34521416705434 z=1399.9737505328076 current=-69.41078692333662 rotation=Y-0.8594366926962348
+
+solenoid chicane_bend_4 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_4 x=458.0954063495494 z=1499.9483349603925 current=-69.41078692333662 rotation=Y-1.1459155902616465
+
+solenoid chicane_bend_5 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_5 x=455.3457558152488 z=1599.910420716059 current=-69.41078692333662 rotation=Y-1.432394487827058
+
+solenoid chicane_bend_6 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_6 x=452.09633130527186 z=1699.8575087528698 current=-69.41078692333662 rotation=Y-1.7188733853924698
+
+solenoid chicane_bend_7 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_7 x=448.34721405505593 z=1799.787100398829 current=-69.41078692333662 rotation=Y-2.0053522829578814
+
+solenoid chicane_bend_8 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_8 x=444.0984977923483 z=1899.6966974193506 current=-69.41078692333662 rotation=Y-2.291831180523293
+
+solenoid chicane_bend_9 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_9 x=439.3502887348234 z=1999.5838020797123 current=-69.41078692333662 rotation=Y-2.578310078088705
+
+solenoid chicane_bend_10 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_10 x=434.10270558746674 z=2099.4459172075003 current=-69.41078692333662 rotation=Y-2.8647889756541165
+
+solenoid chicane_bend_11 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_11 x=428.35587953958134 z=2199.2805462550377 current=-69.41078692333662 rotation=Y-3.1512678732195276
+
+solenoid chicane_bend_12 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_12 x=422.10995426152044 z=2299.085193361798 current=-69.41078692333662 rotation=Y-3.4377467707849396
+
+solenoid chicane_bend_13 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_13 x=415.36508590108974 z=2398.8573634168015 current=-69.41078692333662 rotation=Y-3.724225668350351
+
+solenoid chicane_bend_14 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_14 x=408.1214430796474 z=2498.5945621209926 current=-69.41078692333662 rotation=Y-4.010704565915762
+
+solenoid chicane_bend_15 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_15 x=400.3792068878877 z=2598.2942960496 current=-69.41078692333662 rotation=Y-4.297183463481174
+
+solenoid chicane_bend_16 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_16 x=392.13857088130794 z=2697.9540727144663 current=-69.41078692333662 rotation=Y-4.583662361046586
+
+solenoid chicane_bend_17 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_17 x=383.3997410753848 z=2797.5714006263665 current=-69.41078692333662 rotation=Y-4.870141258611997
+
+solenoid chicane_bend_18 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_18 x=374.1629359404044 z=2897.143789357292 current=-69.41078692333662 rotation=Y-5.156620156177409
+
+solenoid chicane_bend_19 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_19 x=364.42838639601655 z=2996.668749602709 current=-69.41078692333662 rotation=Y-5.443099053742821
+
+solenoid chicane_bend_20 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_20 x=354.19633580544655 z=3096.1437932437957 current=-69.41078692333662 rotation=Y-5.729577951308232
+
+solenoid chicane_bend_21 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_21 x=343.4670399694344 z=3195.566433409642 current=-69.41078692333662 rotation=Y-6.016056848873644
+
+solenoid chicane_bend_22 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_22 x=332.24076711981365 z=3294.934184539422 current=-69.41078692333662 rotation=Y-6.302535746439055
+
+solenoid chicane_bend_23 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_23 x=320.517797912825 z=3394.2445624445327 current=-69.41078692333662 rotation=Y-6.589014644004466
+
+solenoid chicane_bend_24 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_24 x=308.2984254220803 z=3493.4950843706993 current=-69.41078692333662 rotation=Y-6.875493541569878
+
+solenoid chicane_bend_25 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_25 x=295.5829551312611 z=3592.683269060043 current=-69.41078692333662 rotation=Y-7.16197243913529
+
+solenoid chicane_bend_26 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_26 x=282.37170492645714 z=3691.806636813112 current=-69.41078692333662 rotation=Y-7.448451336700702
+
+solenoid chicane_bend_27 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_27 x=268.66500508823924 z=3790.8627095508755 current=-69.41078692333662 rotation=Y-7.734930234266114
+
+solenoid chicane_bend_28 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_28 x=254.4631982833937 z=3889.8490108766737 current=-69.41078692333662 rotation=Y-8.021409131831524
+
+solenoid chicane_bend_29 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_29 x=239.766639556344 z=3988.76306613813 current=-69.41078692333662 rotation=Y-8.307888029396937
+
+solenoid chicane_bend_30 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.5,1.0,0.0
+place chicane_bend_30 x=224.57569632029595 z=4087.602402489014 current=-69.41078692333662 rotation=Y-8.594366926962348
+
+solenoid chicane_bend_0 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_0 x=209.63188307293603 z=4186.479510282618 current=-69.41078692333662 rotation=Y-8.594366926962348
+
+solenoid chicane_bend_1 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_1 x=195.43007626808685 z=4285.465811608417 current=-69.41078692333662 rotation=Y-8.307888029396937
+
+solenoid chicane_bend_2 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_2 x=181.7233764298726 z=4384.52188434618 current=-69.41078692333662 rotation=Y-8.021409131831524
+
+solenoid chicane_bend_3 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_3 x=168.51212622506864 z=4483.64525209925 current=-69.41078692333662 rotation=Y-7.734930234266114
+
+solenoid chicane_bend_4 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_4 x=155.79665593425307 z=4582.833436788593 current=-69.41078692333662 rotation=Y-7.448451336700702
+
+solenoid chicane_bend_5 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_5 x=143.5772834435047 z=4682.083958714759 current=-69.41078692333662 rotation=Y-7.16197243913529
+
+solenoid chicane_bend_6 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_6 x=131.85431423651607 z=4781.39433661987 current=-69.41078692333662 rotation=Y-6.875493541569878
+
+solenoid chicane_bend_7 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_7 x=120.62804138689899 z=4880.76208774965 current=-69.41078692333662 rotation=Y-6.589014644004466
+
+solenoid chicane_bend_8 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_8 x=109.89874555088318 z=4980.184727915496 current=-69.41078692333662 rotation=Y-6.302535746439054
+
+solenoid chicane_bend_9 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_9 x=99.66669496031682 z=5079.659771556583 current=-69.41078692333662 rotation=Y-6.016056848873643
+
+solenoid chicane_bend_10 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_10 x=89.93214541592897 z=5179.184731802001 current=-69.41078692333662 rotation=Y-5.729577951308232
+
+solenoid chicane_bend_11 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_11 x=80.69534028094859 z=5278.757120532925 current=-69.41078692333662 rotation=Y-5.443099053742821
+
+solenoid chicane_bend_12 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_12 x=71.95651047502179 z=5378.374448444825 current=-69.41078692333662 rotation=Y-5.156620156177409
+
+solenoid chicane_bend_13 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_13 x=63.71587446844569 z=5478.034225109693 current=-69.41078692333662 rotation=Y-4.870141258611997
+
+solenoid chicane_bend_14 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_14 x=55.97363827668596 z=5577.7339590383 current=-69.41078692333662 rotation=Y-4.583662361046586
+
+solenoid chicane_bend_15 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_15 x=48.72999545523999 z=5677.471157742491 current=-69.41078692333662 rotation=Y-4.297183463481174
+
+solenoid chicane_bend_16 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_16 x=41.985127094809286 z=5777.243327797494 current=-69.41078692333662 rotation=Y-4.010704565915762
+
+solenoid chicane_bend_17 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_17 x=35.73920181674839 z=5877.047974904253 current=-69.41078692333662 rotation=Y-3.724225668350351
+
+solenoid chicane_bend_18 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_18 x=29.992375768862985 z=5976.882603951792 current=-69.41078692333662 rotation=Y-3.437746770784939
+
+solenoid chicane_bend_19 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_19 x=24.74479262150271 z=6076.744719079579 current=-69.41078692333662 rotation=Y-3.151267873219527
+
+solenoid chicane_bend_20 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_20 x=19.99658356398504 z=6176.631823739941 current=-69.41078692333662 rotation=Y-2.8647889756541165
+
+solenoid chicane_bend_21 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_21 x=15.747867301277438 z=6276.541420760463 current=-69.41078692333662 rotation=Y-2.5783100780887045
+
+solenoid chicane_bend_22 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_22 x=11.998750051065144 z=6376.471012406422 current=-69.41078692333662 rotation=Y-2.2918311805232925
+
+solenoid chicane_bend_23 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_23 x=8.749325541080907 z=6476.418100443233 current=-69.41078692333662 rotation=Y-2.0053522829578814
+
+solenoid chicane_bend_24 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_24 x=5.99967500677667 z=6576.3801861988995 current=-69.41078692333662 rotation=Y-1.7188733853924696
+
+solenoid chicane_bend_25 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_25 x=3.749867189275392 z=6676.354770626484 current=-69.41078692333662 rotation=Y-1.4323944878270578
+
+solenoid chicane_bend_26 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_26 x=1.9999583336502837 z=6776.339354366584 current=-69.41078692333662 rotation=Y-1.1459155902616458
+
+solenoid chicane_bend_27 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_27 x=0.7499921875278233 z=6876.331437809813 current=-69.41078692333662 rotation=Y-0.859436692696234
+
+solenoid chicane_bend_28 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_28 x=0.0 z=6976.328521159292 current=-69.41078692333662 rotation=Y-0.5729577951308238
+
+solenoid chicane_bend_29 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_29 x=-0.24999947916876408 z=7076.328104493146 current=-69.41078692333662 rotation=Y-0.2864788975654119
+
+solenoid chicane_bend_30 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0.0,1.0,0.5
+place chicane_bend_30 x=0.0 z=7176.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_0 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_0 x=0.0 z=7276.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_1 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_1 x=0.0 z=7376.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_2 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_2 x=0.0 z=7476.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_3 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_3 x=0.0 z=7576.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_4 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_4 x=0.0 z=7676.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_5 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_5 x=0.0 z=7776.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_6 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_6 x=0.0 z=7876.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_7 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_7 x=0.0 z=7976.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_8 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_8 x=0.0 z=8076.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_9 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_9 x=0.0 z=8176.327687827001 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_10 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_10 x=0.0 z=8276.327687827 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_0 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_0 x=0.0 z=8376.327687827 current=-69.41078692333662 rotation=Y-0.0
+
+solenoid chicane_straight_1 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_1 x=0.0 z=8476.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_0 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_0 x=0.0 z=8576.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_1 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_1 x=0.0 z=8676.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_2 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_2 x=0.0 z=8776.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_3 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_3 x=0.0 z=8876.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_4 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_4 x=0.0 z=8976.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_5 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_5 x=0.0 z=9076.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_6 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_6 x=0.0 z=9176.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_7 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_7 x=0.0 z=9276.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_8 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_8 x=0.0 z=9376.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_9 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_9 x=0.0 z=9476.327687827 current=-0.0 rotation=Y-0.0
+
+solenoid chicane_straight_10 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
+place chicane_straight_10 x=0.0 z=9576.327687827 current=-0.0 rotation=Y-0.0
+
