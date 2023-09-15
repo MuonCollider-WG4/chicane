@@ -1,10 +1,10 @@
 physics default doStochastics=0
-zntuple cooling_monitor zloop=0.0:8576.327687827:100.0 format=for009 file=output_data coordinates=c
+zntuple cooling_monitor zloop=0.0:8576.327687827:100.0 format=for009 file=output/output_data coordinates=c
 param epsMax=0.01
 param maxStep=10.0
 reference particle=mu+ referenceMomentum=199.3941022999427  beamZ=0.0 beamX=0.0 beamT=0.0 noEfield=0 noEloss=0
-beam ascii particle=-13 nEvents=11 filename=beam.txt format=BLTrackFile beamZ=0.0
-coil coil_500_550.0_95.0 innerRadius=500.0 outerRadius=550.0 length=95.0
+beam ascii particle=-13 nEvents=11 filename=lattice/beam.txt format=BLTrackFile beamZ=0.0
+coil coil_500_550.0_95.0 innerRadius=500.0 outerRadius=550.0 length=95.0 filename=output/coil.dat
 solenoid chicane_straight_0 coilName=coil_500_550.0_95.0 current=1 kill=1 color=0,1,0
 place chicane_straight_0 x=464.09508135632973 z=-1000.0 current=-69.41078692333662 rotation=Y-0.0
 
